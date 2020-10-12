@@ -9,7 +9,6 @@ def pomodoro():
                         print('Pomodoro work time!')
                         time.sleep(1500) 
                         count +=1
-                        print(count)
                         
                         if count % 3:
                                 os.system( "say 5 minute break")
