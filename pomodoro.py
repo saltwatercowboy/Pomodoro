@@ -11,7 +11,7 @@ def pomodoro():
                         count +=1
                         
                         if count % 3:
-                                os.system( "say 5 minute break")
+                                os.system( "say 5 minute break" )
                                 print('Pomodoro 5 minute break!')
                                 time.sleep(300) 
                                 
